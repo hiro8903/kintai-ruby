@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.1.6'
+gem 'bootstrap-sass', '3.3.7'
 gem 'puma',         '3.9.1'
 gem 'sass-rails',   '5.0.6'
 gem 'uglifier',     '3.2.0'
@@ -35,3 +36,5 @@ end
 
 # Windows環境ではtzinfo-dataというgemを含める必要があります
 # gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# Mac環境でしたら、上のgemはコメントアウトします
+# 対象の行にカーソルがある状態で command + 「/」キー が便利です。
